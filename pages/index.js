@@ -1,5 +1,11 @@
 import Hero from 'components/hero'
 
-export default function Blog () {
-  return <Hero />
+export default function Home () {
+  return (
+    <Hero
+      title='CUBE'
+      subtitle='アウトプットしていくサイト'
+      imageOn
+    />
+  )
 }
